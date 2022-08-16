@@ -1,0 +1,70 @@
+<section class="vh-250" style="background-color: #508bfc;">
+  <div class="container  h-100">
+    <div class="row d-flex justify-content-center align-items-center ">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;">
+          <div class="card-body  text-center">
+
+            <h3 class="mb-5">Register</h3>
+
+           <form action="/register" method="post">
+                         <div class="form-outline mb-4">
+              <input type="text" id="typeTextX-2" class="form-control "  name="firstname"/>
+              <label class="form-label" for="typeTextX-2">First Name</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="text" id="typeText2X-2" class="form-control " name="lastname" />
+              <label class="form-label" for="typeText2X-2">Last Name</label>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="email" id="typeEmailX-2" class="form-control " name="email"/>
+              <label class="form-label" for="typeEmailX-2">Email</label>
+            </div>
+
+             <div class="form-outline mb-4">
+              <input type="number" id="typePhoneX-2" class="form-control "  name="phone"/>
+              <label class="form-label" for="typePhoneX-2">Phone</label>
+            </div>
+
+
+            <div class="p-1">
+                <p class="gender ">Gender</p>
+            <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Male">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Female">
+            <label class="form-check-label" for="inlineRadio2">Female</label>
+            </div>
+            </div>
+
+            <div class="form-outline mb-4">
+              <input type="password" id="typePasswordX-2" class="form-control " name="password" />
+              <label class="form-label" for="typePasswordX-2">Password</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-outline mb-4">
+              <input type="password" id="typeConfirmPasswordX-2" class="form-control " name="confirmpassword"/>
+              <label class="form-label" for="typeConfirmPasswordX-2">Confirm Password</label>
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+           </form>
+
+            <hr class="my-4">
+
+            <button class="btn btn-lg btn-block btn-primary" style="background-color: #dd4b39;"
+              type="submit"><i class="fab fa-google me-2"></i> Register with google</button>
+            <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+              type="submit"><i class="fab fa-facebook-f me-2"></i>Register with facebook</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
